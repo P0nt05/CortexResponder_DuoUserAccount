@@ -20,3 +20,5 @@ How to install:
   ![Responders](/Responders.jpg)
  
 Per default TheHive has no "username" Observable type, so we have to add this in the Admin settings
+  ![AddObservableType](/AddObservableType.jpg)
+
