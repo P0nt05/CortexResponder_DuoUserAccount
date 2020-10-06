@@ -12,7 +12,7 @@ The Responder is looking for a "username" as input and queries the Duo Admin API
 The UserID is used to change the "status" of the particular user.
 
 ## How to install:
-  * git clone Responder into your Cortex "responders" installation path
+  * copy the folders "DuoLockUserAccount" & "DuoUnlockUserAccount" into your Cortex responders path
   * install necessary python modules from the requirements.txt (pip install -r requirements.txt)
   * restart Cortex to initialize the new Responder "systemctl restart cortex"
   * add the ResponderConfig 
