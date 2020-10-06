@@ -20,6 +20,6 @@ The UserID is used to change the "status" of the particular user.
   * ![Responders](/Responders.jpg)
  
 * **Add Observable type in TheHive**
- * Per default TheHive has no "username" Observable type, so we have to add this in the Admin settings
- * ![AddObservableType](/AddObservableType.jpg)
+  * Per default TheHive has no "username" Observable type, so we have to add this in the Admin settings
+  * ![AddObservableType](/AddObservableType.jpg)
 
