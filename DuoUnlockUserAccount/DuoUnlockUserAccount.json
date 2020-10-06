@@ -2,7 +2,7 @@
   "name": "Duo Security - Unlock User Account",
   "version": "1.0",
   "author": "Sven Kutzer / Gyorgy Acs",
-  "url": "https://github.com/TheHive-Project/Cortex-Analyzers",
+  "url": "https://github.com/P0nt05/CortexResponder_DuoUserAccount",
   "license": "AGPL-V3",
   "description": "Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)",
   "dataTypeList": ["thehive:case_artifact"],
