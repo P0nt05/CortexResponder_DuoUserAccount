@@ -12,5 +12,7 @@ How to install:
 - Install Responder via git clone into the Responder folder from your Cortex installation.
 - Restart Cortex to initialize the new Responder "systemctl restart cortex"
 - Add the ResponderConfig 
-
+  (ResponderConfig.jpg)
 - Enable the Repsonder Actions
+  (Responders.jpg)
+  
