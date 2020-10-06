@@ -1,0 +1,34 @@
+{
+  "name": "Duo Security - Unlock User Account",
+  "version": "1.0",
+  "author": "Sven Kutzer / Gyorgy Acs",
+  "url": "https://github.com/TheHive-Project/Cortex-Analyzers",
+  "license": "AGPL-V3",
+  "description": "Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)",
+  "dataTypeList": ["thehive:case_artifact"],
+  "command": "DuoUnlockUserAccount/duoUnlockUserAccount.py",
+  "baseConfig": "Duo_AdminAPI-Account",
+  "configurationItems": [
+    {
+      "name": "API_hostname",
+      "description": "Duo Admin API hostname, https://api-XXXXXXXX.duosecurity.com",
+      "type": "string",
+      "multi": false,
+      "required": true
+    },
+   {
+      "name": "iKey",
+      "description": "Integration Key",
+      "type": "string",
+      "multi": false,
+      "required": true
+    },
+    {
+      "name": "sKey",
+      "description": "Secret Key",
+      "type": "string",
+      "multi": false,
+      "required": true
+    }
+  ]
+}
