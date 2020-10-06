@@ -19,7 +19,11 @@ The UserID is used to change the "status" of the particular user.
   * Enable the Responder Actions
   * ![Responders](/Responders.jpg)
  
-## **Add Observable type in TheHive**
+## Add Observable type in TheHive**
   * Per default TheHive has no "username" Observable type, so we have to add this in the Admin settings
   * ![AddObservableType](/AddObservableType.jpg)
+
+## Run the Responder action in TheHive
+
+If you have add an observable, you can now take action and lock/unlock the User in Duo Security
 
