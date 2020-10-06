@@ -26,4 +26,4 @@ The UserID is used to change the "status" of the particular user.
 ## Run the Responder action in TheHive
 
 If you have add an observable, you can now take action and lock/unlock the User in Duo Security
-
+ * ![Demo_Lock-Unlock_DuoUser](/Demo_Lock-Unlock_DuoUser.gif)
