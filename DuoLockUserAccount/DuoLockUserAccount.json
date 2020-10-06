@@ -2,7 +2,7 @@
   "name": "Duo Security - Lock User Account",
   "version": "1.0",
   "author": "Sven Kutzer / Gyorgy Acs",
-  "url": "https://github.com/TheHive-Project/Cortex-Analyzers",
+  "url": "https://github.com/P0nt05/CortexResponder_DuoUserAccount",
   "license": "AGPL-V3",
   "description": "Lock User Account in Duo Security via AdminAPI (The user will not be able to log in)",
   "dataTypeList": ["thehive:case_artifact"],
