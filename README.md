@@ -12,16 +12,16 @@ The Responder is looking for a "username" as input and queries the Duo Admin API
 The UserID is used to change the "status" of the particular user.
 
 ## How to install:
-  * Install Responder via git clone into the Responder folder from your Cortex installation
-  * Install necessary python modules from the requirements.txt (pip install -r requirements.txt)
-  * Restart Cortex to initialize the new Responder "systemctl restart cortex"
-  * Add the ResponderConfig 
+  * git clone Responder into your Cortex "responders" installation path
+  * install necessary python modules from the requirements.txt (pip install -r requirements.txt)
+  * restart Cortex to initialize the new Responder "systemctl restart cortex"
+  * add the ResponderConfig 
   * ![ResponderConfig](/ResponderConfig.jpg)
-  * Enable the Responder Actions
+  * enable the Responder Actions
   * ![Responders](/Responders.jpg)
  
 ## Add Observable type in TheHive**
-  * Per default TheHive has no "username" Observable type, so we have to add this in the Admin settings
+  * per default TheHive has no "username" Observable type, so we have to add this in the Admin settings
   * ![AddObservableType](/AddObservableType.jpg)
 
 ## Run the Responder action in TheHive
