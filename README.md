@@ -9,13 +9,13 @@ There are two Responder available in order to change the status of a User in Duo
 
 **DuoUnlockUserAccount** ->  changes the "status" to “active” - The user must complete secondary authentication.
 
-The Responder is looking for a "username" as input and queries the Duo Admin API, to receive the associated UserID.
+The Responder is looking for a "**username**" as input and queries the Duo Admin API, to receive the associated UserID.
 The UserID is used to change the "status" of the particular user.
 
 ## How to install:
   * copy the folders "DuoLockUserAccount" & "DuoUnlockUserAccount" into your Cortex responders path
-  * install necessary python modules from the requirements.txt (pip install -r requirements.txt)
-  * restart Cortex to initialize the new Responder "systemctl restart cortex"
+  * install necessary python modules from the requirements.txt (**pip install -r requirements.txt**)
+  * restart Cortex to initialize the new Responder "**systemctl restart cortex**"
   * add the ResponderConfig 
   * ![ResponderConfig](/ResponderConfig.jpg)
   * enable the Responder Actions
