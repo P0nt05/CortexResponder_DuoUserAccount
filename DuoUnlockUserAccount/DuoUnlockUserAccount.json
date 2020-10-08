@@ -17,14 +17,14 @@
       "required": true
     },
    {
-      "name": "iKey",
+      "name": "Integration_Key",
       "description": "Integration Key",
       "type": "string",
       "multi": false,
       "required": true
     },
     {
-      "name": "sKey",
+      "name": "Secret_Key",
       "description": "Secret Key",
       "type": "string",
       "multi": false,
