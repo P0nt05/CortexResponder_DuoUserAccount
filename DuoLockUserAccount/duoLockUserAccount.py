@@ -10,8 +10,8 @@ class DuoLockUserAccount(Responder):
     def __init__(self):
         Responder.__init__(self)
         self.API_hostname = self.get_param('config.API_hostname', None, "API hostname is missing")
-        self.iKey = self.get_param('config.iKey', None, "Integration Key is missing")
-        self.sKey = self.get_param('config.sKey', None, "Secret Key is  missing")
+        self.iKey = self.get_param('config.Integration_Key', None, "Integration Key is missing")
+        self.sKey = self.get_param('config.Secret_Key', None, "Secret Key is  missing")
 
     def run(self):
         Responder.run(self)
